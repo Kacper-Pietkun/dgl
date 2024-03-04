@@ -17,7 +17,7 @@ from tqdm import tqdm
 
 v_t = dgl.__version__
 
-
+# dummy change
 def prepare_data(args, device):
     dataset = DglNodePropPredDataset(name="ogbn-mag")
     split_idx = dataset.get_idx_split()
